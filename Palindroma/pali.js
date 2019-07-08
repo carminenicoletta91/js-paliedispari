@@ -1,15 +1,15 @@
 // Faccio inserire una parola all'utente
 var scelta;
-scelta = prompt("Scegli una parola");
-console.log(scelta);
+scelta = prompt( "Scegli una parola" );
+console.log( scelta );
 // inverto la parola dell'utente
 var invertita;
-invertita = revString(scelta);
-console.log(invertita);
+invertita = revString( scelta );
+console.log( invertita );
 // controllo se la parola è palindroma
 var esito;
-esito = palindroma(invertita , scelta);
-console.log(esito);
+esito = palindroma( invertita , scelta );
+console.log( esito );
 
 // creo funzione per invertire una stringa
 function revString( str ) {
